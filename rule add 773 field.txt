@@ -1,0 +1,15 @@
+rule "add 773 field for Strozier Library"
+# before editing this norm rule contact Discovery Data Services at lib-cataloging@fsu.edu
+when
+  (TRUE)
+then
+
+# Create Local Field -- edit this when needed
+    addField "773.{0,-}.a.PARENT TITLE GOES HERE"
+    addSubfield "773.w.MMS ID GOES HERE"
+    addSubfield "773.g.no:"
+    addSubfield "773.9.LOCAL"
+    end
+
+#removeField "773"
+#end
